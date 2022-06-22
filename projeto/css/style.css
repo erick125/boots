@@ -2,3 +2,15 @@
 {
 	margin-top: 25px;
 }
+
+#rodape
+{
+	height: 100px;
+	background-color: #000;
+}
+
+.cor-fonte
+{
+	color: #fff;
+}
+
