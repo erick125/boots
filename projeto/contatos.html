@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width= device-width,inital-scale=1.0">	
 	<link rel ="stylesheet" href="res/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="icon" type="image/x-icon" href="img/riot.png">
 	<title>contato</title>
 </head>
@@ -27,6 +28,90 @@
 		</div>
 	</nav>
 
+	<section id="fale-conosco">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h3 class="display-6">Fale conosco</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div clas="col-12" id="preenchimento">
+					<form method="get" action="#">
+						<label for="nome-completo" class="form-label">Digite seu nome</label>
+						<input type="text" class="form-control" id="nome-completo" required>
+						<p class="form-text">Digite seu nome completo neste campo</p>
+						
+						<label for="email" class="form-label">Digite seu email</label>
+						<input type="email" class="form-control" id="email" required>
+						<p class="form-text">Digite seu email neste campo</p>
+						
+						
+						<label for="telefone" class="form-label">Digite seu telefone</label>
+						<input type="tel" class="form-control" id="telefone" required>
+						<p class="form-text">Digite seu telefone neste campo</p>
+						
+						
+						<label for="estado" class="form-label">Digite seu estado</label>
+						<input type="text" class="form-control" id="estado" required>
+						<p class="form-text">Digite seu estado neste campo</p>
+						
+						
+						<label for="cidade" class="form-label">Digite sua cidade</label>
+						<input type="text" class="form-control" id="cidade" required>
+						<p class="form-text">Digite sua cidade neste campo</p>
+						
+						<label for="motivo-contato" class="form-label">Informe o motivo do contato</label>
+						<select class="form=select" id="motivo-contato" required>
+							<option>Motivo 1</option>
+							<option>Motivo 2</option>
+							<option>Motivo 3</option>
+							<option>Motivo 4</option>
+						</select><br>
+						
+						
+						<label for="caixa-texto" class="form-label">Digite sua mensagem</label>
+						<textarea class="form-control" id="caixa-text" rows="3" required></textarea>
+						
+						<button type="submit" class="btn btn-dark" id="botao-enviar">Enviar</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	
+	<footer id="rodape">
+		<div class="container">
+			<div class="row">
+				<div class="col-4">
+					<img src="img/logowildrift.png" width="110" height="80">
+				</div>
+				<div class="col-4 text-center">
+					<ul class="nav justify-content-center">
+						<li class="nav-item">
+							<a class="nav-link cor-fonte" href="#">Início</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link cor-fonte" href="servicos.html">Serviços</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link cor-fonte" href="contatos.html">Contatos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link cor-fonte" href="sobre.html">Sobre</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-4 text-end">
+					<img src="img/twitter.png">
+					<img src="img/facebook.png">
+					<img src="img/instagram.png">
+				</div>
+			</div>
+		</div>
+	</footer>
 
 	<script type="text/javascript" src="res/bootstrap/js/bootstrap.min.js"></script>
 </body>
