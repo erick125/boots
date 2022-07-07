@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<title>Cadastro</title>
 </head>
-<body>
+<body class="fundo-login">
 
 	<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000;">
 		<div class="container">
@@ -23,6 +23,7 @@
 					<a class="nav-link" href="noticias.html">Notícias</a>
 					<a class="nav-link" href="contatos.html">Contato</a>
 					<a class="nav-link" href="sobre.html">Sobre</a>
+					<a class="nav-link" href="login.html">Iniciar Sessão</a>
 				</div>
 			</div>
 		</div>
@@ -31,39 +32,34 @@
 	<section>
 		<div class="container">
 			<div class="row">
-				<div class="col-5">
+				<div class="col-4">
 				</div>
-				<div class="col-2 text-center">
+				<div class="col-4 text-center" id="corpo-cadastro">
 					<h4>FAZER CADASTRO</h4>
 					<form method="get" action="#">
 						<label for="usuario" class="form-label">Nome de usuário:</label>
 						<input type="text" class="form-control" id="usuario" required>
-						
+								
 						<label for="senha" class="form-label">Senha:</label>
 						<input type="password" class="form-control" id="senha" required>
-						
+								
 						<label for="confirmSenha" class="form-label">Confirmar Senha:</label>
 						<input type="password" class="form-control" id="confirmSenha" required>
-						
+								
 						<label for="email" class="form-label">Email:</label>
 						<input type="email" class="form-control" id="email" required>
-						
+								
 						<label for="confirmEmail" class="form-label">Confirmar Email:</label>
 						<input type="email" class="form-control" id="confirmEmail" required>
-						
-						<div class="form-check">
-						  <input class="form-check-input" type="checkbox" value="" id="manterLogin">
-						  <label class="form-check-label text-muted" for="manterLogin">
-							Manter login
-						  </label>
-						</div>
-						
+								
+						<button type="button" onclick="validarCadastro()" class="btn btn-dark" id="botao-enviar">Enviar</button>
+								
 						<div style="font-size:80%; margin-top:25px;">
-							<a href="login.html"><p class="text-muted">Já possui uma conta?</p></a>
+							<a href="login.html" style="text-decoration:none;"><p class="text-muted">Já possui uma conta?</p></a>
 						</div>
 					</form>
 				</div>
-				<div class="col-5">
+				<div class="4">
 				</div>
 			</div>
 		</div>
@@ -78,7 +74,7 @@
 				<div class="col-4 text-center">
 					<ul class="nav justify-content-center">
 						<li class="nav-item">
-							<a class="nav-link cor-fonte" href="#">Início</a>
+							<a class="nav-link cor-fonte" href="index.html">Início</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link cor-fonte" href="noticias.html">Serviços</a>
@@ -88,6 +84,9 @@
 						</li>
 						<li class="nav-item">
 							<a class="nav-link cor-fonte" href="sobre.html">Sobre</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link cor-fonte" href="login.html">Iniciar Sessão</a>
 						</li>
 					</ul>
 				</div>

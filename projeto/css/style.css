@@ -123,3 +123,38 @@ body
 {
 	font-size:500%;
 }
+
+#corpo-login
+{
+	background-color:#fff;
+	border-radius:3%;
+	padding-right:120px;
+	padding-left:120px;
+	padding-top:40px;
+	padding-bottom:40px;
+	margin-top:104px;
+	margin-bottom:153px;
+}
+
+#corpo-cadastro
+{
+	background-color:#fff;
+	border-radius:3%;
+	padding-right:120px;
+	padding-left:120px;
+	padding-top:40px;
+	padding-bottom:40px;
+	margin-top:64px;
+	margin-bottom:64px;
+}
+
+.fundo-login
+{
+	background-image: url(../img/wrback.webp);
+	background-repeat:no-repeat;
+}
+
+.login-enviar
+{
+	margin-top:20px;
+}
